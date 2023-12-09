@@ -1,0 +1,52 @@
+img.ph{
+    margin: auto;
+    display: block;/*способ вывода*/
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;/*скругляет углы*/
+}
+div.doom{
+    background-image:url(ss_0376401a9e1d4006b8e6e9cdc248c8502f719888.1920x1080.jpg) ;
+    border: 10px solid rgb(255, 255, 255);
+}
+p.aboba{
+    color: rgb(255, 255, 255);
+}
+h1.hh1{
+    color: white;
+}
+.ma{
+    margin: 0; /*отступ внешний*/
+    padding: 0; /*отступ внутреннний*/
+    font-family: sans-serif ; 
+    box-sizing: border-box;
+}
+
+img.ph1{
+    margin: auto;
+    display: block;/*способ вывода*/
+    width: 400px;
+    height: 400px;
+}
+
+div.di1{
+    border: 10px solid rgb(255, 255, 255);
+    background-image: url(JoyDivision-UnknownPleasures-B1.jpg);
+}
+.text{
+    color: rgb(255, 255, 255);
+}
+.ma{margin: 5%;}
+p.pp1{
+    color: white;
+}
+h1.hhh1{
+    color: white;
+}
+div.di2{
+    border: 10px solid rgb(255, 255, 255);
+    background-image: url(024afc3552609084c1d0a0473f660ba3.1000x1000x1.jpg);
+}
+p.pp2{
+    color: rgb(255, 0, 0);
+}

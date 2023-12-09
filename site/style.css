@@ -1,0 +1,69 @@
+*{
+    margin: auto; 
+    padding: 0; 
+    font-family: sans-serif ; 
+    box-sizing: border-box;
+}
+body{
+width: 1920px;
+    background-color:rgb(223, 166, 123);
+}
+div.textmain{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background-image: url("github-mark.png"); /*Серый цвет фона*/
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 100%; /* Скругляем уголки */
+    margin-top: auto;
+    width: 100px;
+    height: 100px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color:rgb(255, 242, 204);
+    background-image: url("github-mark.svg");
+    background-size: cover;
+    margin-left: 5.2%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    /* margin: auto; */
+}
+.teleg{
+    position: absolute;
+    display: inline-block; /* Строчно-блочный элемент */
+    background-image: url("telegram-svgrepo-com.svg"); 
+    background-color:rgb(255, 242, 204);
+    border-radius: 50px; /* Скругляем уголки */
+    margin-top:-100px ;
+    margin-left: 0;
+    margin-bottom: 50%;
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-size: cover;
+    /* margin:auto; */
+} 
+  .suka{
+    width: 1920px;;
+    height: 100px; 
+    left: 0px;
+    top: 0px;
+    position: absolute; 
+    background-color:rgb(244, 177, 131);
+}
+.babus{
+    margin-top: -100px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    margin-left: 50%;
+    width: 100px;
+    height: 100px;
+}

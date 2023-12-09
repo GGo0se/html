@@ -1,0 +1,46 @@
+/*a - если стиль встроенныый (определен style="......")
+  то а=1, иначе а= 0
+  */
+  /* b равно каличество Id идентефикаторов (#)
+  */
+h1.bob{
+    color:rgb(8, 253, 8);
+}
+/* c равно количество псевдокалассов селекторов и псевдоклассов и атрибутов 
+
+"1".asd "2".tesе "3"(псевдо класс).hower{color:blue;}
+*/
+
+/* class d равно колличеству тегов
+
+ul li p{
+    color:black;
+}
+
+
+*/
+
+/* 
+Gird
+flex 
+display 
+*/
+body{
+    background-color: bisque;
+}
+
+div.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 100px 100px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". ."
+      ". .";
+      border: 10px;
+  }
+  
+/*
+https://grid.layoutit.com/
+*/

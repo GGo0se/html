@@ -1,0 +1,34 @@
+*{
+    margin: 0; /*отступ внешний*/
+    padding: 0; /*отступ внутреннний*/
+    font-family: sans-serif ; 
+    box-sizing: border-box;
+}
+/*селектор 1 по тегам */
+div
+{ 
+
+}
+h1{
+    color: brown;
+}
+/*по классам */
+.Myzag1{
+    background-color: aquamarine;
+}
+/*по тегу и классу*/
+/*тег.класс */
+h1.qwe{
+    color: brown;
+}
+/*по классам*/
+/*порядок не важен*/.zxc{
+color: rgb(74, 24, 121);
+}
+
+img.a1{
+    display: block;/*способ вывода*/
+    width: auto;
+    height: auto;
+    border-radius: 2%;/*скругляет углы*/
+}
