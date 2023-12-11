@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    width: auto;
+    height: auto;
+    background-color: rgb(227, 101, 29);
+}
+
+.container {
+    margin-top: 45px;
+    width: auto;
+    height: auto;
+    /* margin: auto; */
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.box2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    flex-direction: row;
+    align-items: right;
+}
+
+.containe2 {
+    margin-top: -600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+.box3 {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+}
+
+.img1 {
+    margin-top: 2px;
+    width: 600px;
+    height: 300px;
+}
+
+.header
+{
+    width: 100%;
+    height: 50px; 
+    left: 0px;
+    top: 0px;
+    position: absolute; 
+    background-color: rgb(190, 215, 84);
+}
+/* .p1 
+{  font-family: 'Poppins', sans-serif;
+    width: 300px;
+    height: 100px; 
+    word-wrap: break-word;
+    font-weight: 100%;
+    font-size:30px;
+    display: block;
+    font-size: 20px;
+    margin-left:- 40%; 
+    position: absolute;
+} */
+.p2 {
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    height: 100px;
+    word-wrap: break-word;
+    font-weight: 100%;
+    font-size: 30px;
+    display: block;
+    font-size: 20px;
+    margin-left: - 40%;
+    position: absolute;
+    margin-right: 75%;
+
+}
+.h1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 210px;
+}
+.p3{
+    margin-top: -2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer
+{
+  margin-top: 700px;
+  width: 100%;
+  height: 50px; 
+  left: 0px;
+  top: 0px;
+  position: absolute; 
+  background-color:rgb(190, 215, 84);
+}

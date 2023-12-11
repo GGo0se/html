@@ -87,9 +87,9 @@ margin-top: -600px;
   margin-left: 610px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: right;
+  justify-content: left;
   flex-direction: row-reverse;
-  align-items: right;
+  align-items: left;
 }
 h1{
   color: rgb(99, 126, 118);
