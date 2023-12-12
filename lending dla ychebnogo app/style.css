@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    color: #fff;
+    width: 1920px;
+    height: 7973px;
+}
+
+.header {
+    display: flex;
+    width: 1920px;
+    height: 1126px;
+    flex-shrink: 0;
+    background: #FFF8F2;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 375px;
+    width: 178.573px;
+    height: 39.997px;
+    flex-shrink: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    margin-left: 765px;
+    position: absolute;
+    margin-top: 40px;
+    /* background-color: black; */
+    width: 780px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.contact {
+    margin-left: 48px;
+    color: #1C0E0D;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+.signup {
+    margin-left: 36px;
+    width: auto;
+    height: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #FF553E;
+    border-radius: 70px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    /* display: inline-flex */
+}
+
+.signup1 {
+    margin-left: 68px;
+    width: 133px;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 28px;
+    word-wrap: break-word
+}
+
+.login {
+    margin-left: 141px;
+    color: #FF553E;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.pricing {
+    margin-left: 48px;
+    color: #1C0E0D;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+.features {
+    margin-left: 48px;
+    color: #1C0E0D;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+.demons {
+    color: #1C0E0D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+.funfact {
+    margin-top: -100px;
+    width: 1920px;
+    height: 970px;
+    flex-shrink: 0;
+}
