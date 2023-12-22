@@ -255,15 +255,19 @@ p {
     font-size: 18px;
     font-style: normal;
 }
-.act{
-margin-top: -50px;
+
+.act {
+    margin-top: -50px;
 }
-.total{
-margin-top: -50px;
+
+.total {
+    margin-top: -50px;
 }
-.custom{
-margin-top:-50px;
+
+.custom {
+    margin-top: -50px;
 }
+
 H1 {
     font-size: 48px;
     font-style: normal;
@@ -276,4 +280,53 @@ H1 {
     color: aqua;
     margin-top: 0%;
     position: relative;
+}
+
+.pepnis {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-auto-columns: auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 0px 0px;
+    width: 100%;
+    height: auto;
+    margin-left: 150%;
+}
+
+.some {
+    font-size: large;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+}
+/*контейнер с свг табличками*/
+.babuin {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-auto-columns: auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+}
+
+.an {
+    text-align: center;
+    margin-top: -150px;
+}
+
+.txtxt {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+}
+/*свг таблички*/
+.content1{
+    border-radius: 30px;
+    width: 200px;
+    height: 123px;
+    background-color: #1C0E0D;
 }
