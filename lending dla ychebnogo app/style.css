@@ -392,12 +392,24 @@ H1 {
     margin-top: 530px;
 }
 
+/*аналитика объект*/
+
 .kva {
     justify-self: right;
-
-    background-color: #f5a991;
+    border-radius: 20px;
+    background-color: #e18a72;
     width: 200px;
-    height: 400px;
+    height: 450px;
+}
+
+.kavkva {
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #a46f5d;
+    height: 440px;
+    width: 190px;
+    border-radius: 20px;
 }
 
 .bro {
@@ -411,15 +423,17 @@ H1 {
 
 .ch {
     justify-self: center;
-width: 500px;
+    width: 500px;
     height: 200px;
 }
-.snal{
+
+.snal {
     margin-top: -10px;
     justify-self: center;
     font-size: 20px;
 }
-.icon{
+
+.icon {
     margin-top: -70px;
     display: grid;
     grid-auto-flow: row dense;
@@ -428,28 +442,106 @@ width: 500px;
     grid-template-rows: auto auto auto;
     gap: 0px 0px;
 }
-.icon1{
-border-radius: 20px;
+
+.icon1 {
+    border-radius: 20px;
     justify-self: center;
     background-color: #FA855C;
     width: 88px;
     height: 88px;
 }
-.icon2{
+
+.icon2 {
     border-radius: 20px;
     justify-self: center;
     background-color: #7AD6E1;
     width: 88px;
     height: 88px;
 }
-.icon3{
+
+.icon3 {
     border-radius: 20px;
     justify-self: center;
     background-color: #FFC954;
     width: 88px;
     height: 88px;
 }
-.dildo{
+
+.dildo {
     margin-top: -1px;
     justify-self: start;
+}
+
+.howour {
+    background-color: #F3FDFE;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: -50%;
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+}
+
+.treker {
+    width: 508px;
+    height: 580px;
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-auto-columns: auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 0px 0px;
+}
+
+.foryou {
+    justify-self: center;
+    font-size: 20px
+}
+
+.Anefnim {
+}
+
+.oboeb {
+    margin-left: -50%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    width: 800px;
+    height: 600px;
+}
+
+.brbrbrbr {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-auto-columns: auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 0px 0px;
+    width: 200px;
+    height: auto;
+}
+
+.kit1 {
+    justify-self: right;
+    width: 200px;
+    height: 200px;
+}
+
+.kit2 {
+    justify-self: center;
+    width: 250px;
+    height: 300px;
+}
+
+.kit3 {
+    justify-self: left;
+    width: 290px;
+    height: 300px;
+    margin-top: 40%;
 }
